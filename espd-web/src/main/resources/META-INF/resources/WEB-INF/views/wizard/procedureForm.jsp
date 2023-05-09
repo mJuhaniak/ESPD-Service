@@ -140,6 +140,14 @@
         </div>
         <div class="col-md-12">
             <div class="form-group">
+                <label class="control-label col-md-4">${span18n['createca_test_text_field']}</label>
+                <div class="col-md-8">
+                    <form:textarea rows="1" cssClass="form-control" path="testTextField"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
                 <label class="control-label col-md-4">
                     ${span18n['createca_file_ref_ca']}
                 </label>
